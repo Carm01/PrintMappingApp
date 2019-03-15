@@ -7,7 +7,7 @@
 #AutoIt3Wrapper_Res_Description=Adds staff printers - Main/Middletown
 #AutoIt3Wrapper_Res_Fileversion=2.7.0.0
 #AutoIt3Wrapper_Res_ProductVersion=2.7.0.0
-#AutoIt3Wrapper_Res_LegalCopyright=Carmine
+#AutoIt3Wrapper_Res_LegalCopyright=Carm01@gitHub
 #AutoIt3Wrapper_Res_Language=1033
 #AutoIt3Wrapper_Res_Field=ProductName|Easy Button
 #EndRegion ;**** Directives created by AutoIt3Wrapper_GUI ****
