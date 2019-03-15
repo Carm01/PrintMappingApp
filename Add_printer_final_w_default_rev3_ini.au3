@@ -1,3 +1,4 @@
+; LIne 141 is where your print server goes formanually accessing it via a UNC path
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=21.ico
 #AutoIt3Wrapper_Outfile_x64=EASY_ALL.exe
@@ -76,7 +77,7 @@ GUICtrlSetImage($idADD, @TempDir & "\green.bmp")
 $font = "Tahoma" ; sets the $font to tahoma ms
 GUISetFont(9, 400, 1, $font) ; sets the font to 9 pt, normal  weight, non italic
 GUICtrlSetDefColor(0xFFFFFF)
-GUICtrlCreateLabel("Carmine's super EASY add a printer tool", 10, 45)
+GUICtrlCreateLabel("Super EASY add a printer tool", 10, 45)
 $idLabel = GUICtrlCreateLabel('Make Default', 170, 14, 80, 20)
 GUICtrlSetState($idCheckbox, 4)
 
