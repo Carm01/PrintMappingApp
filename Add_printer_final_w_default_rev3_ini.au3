@@ -137,8 +137,8 @@ While 1
 			GUISetState(@SW_DISABLE, $hGUI)
 			;SoundSetWaveVolume(85)
 			;SoundPlay(@TempDir & '\t.mp3', 0)
-			MsgBox(262160, "Grasshopper says:", "I'm sorry the printer mapping tool did not work for you." & @CRLF & "Please Call the helpdesk 513-569-1234 opt 1" & @CRLF & @CRLF & 'You can also try mapping the printer manually by clicking on the printer in the print server after you click OK', 30)
-			$path = '\\csc-mc-prtstf-1\'
+			MsgBox(262160, "Grasshopper says:", "I'm sorry the printer mapping tool did not work for you." & @CRLF & @CRLF & 'You can also try mapping the printer manually by clicking on the printer in the print server after you click OK', 30)
+			$path = '\\your-print-server\'; your print server goes here
 			Run("explorer /e, " & '"' & $path & '"')
 			GUISetState(@SW_ENABLE, $hGUI)
 			FileDelete(@TempDir & '\red.bmp')
