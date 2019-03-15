@@ -47,7 +47,7 @@ TraySetState($TRAY_ICONSTATE_SHOW) ; Show the tray menu.
 Func About()
 	; Display a message box about the AutoIt version and installation path of the AutoIt executable.
 	MsgBox(262176, "Easy - Add a printer", "" & @CRLF & _
-			"Add a printer easily by Carmine Version 2.7.0.0", 4) ; Find the folder of a full path.
+			"Add a printer easily by Carm Version 2.7.0.0", 4) ; Find the folder of a full path.
 EndFunc   ;==>About
 
 Func ExitScript()
