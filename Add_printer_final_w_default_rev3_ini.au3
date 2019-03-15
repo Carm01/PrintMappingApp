@@ -135,8 +135,8 @@ While 1
 			ExitLoop
 		Case $idClose11
 			GUISetState(@SW_DISABLE, $hGUI)
-			SoundSetWaveVolume(85)
-			'SoundPlay(@TempDir & '\t.mp3', 0)
+			;SoundSetWaveVolume(85)
+			;SoundPlay(@TempDir & '\t.mp3', 0)
 			MsgBox(262160, "Grasshopper says:", "I'm sorry the printer mapping tool did not work for you." & @CRLF & "Please Call the helpdesk 513-569-1234 opt 1" & @CRLF & @CRLF & 'You can also try mapping the printer manually by clicking on the printer in the print server after you click OK', 30)
 			$path = '\\csc-mc-prtstf-1\'
 			Run("explorer /e, " & '"' & $path & '"')
