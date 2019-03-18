@@ -1,4 +1,4 @@
-; LIne 141 is where your print server goes formanually accessing it via a UNC path
+; LIne 141 is where your print server goes for manually accessing it via a UNC path if the script cannot do it
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=21.ico
 #AutoIt3Wrapper_Outfile_x64=EASY_ALL.exe
