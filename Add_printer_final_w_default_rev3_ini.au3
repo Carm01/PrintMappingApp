@@ -158,7 +158,7 @@ While 1
 			EndIf
 			Call('_isinstalled')
 			Call('box')
-			;$cmd3 = 'rundll32 printui.dll,PrintUIEntry /q /in /n"\\csc-mc-prtstf-1\' & $sComboRead & '"'
+			;$cmd3 = 'rundll32 printui.dll,PrintUIEntry /q /in /n"\\prtstf-1\' & $sComboRead & '"'
 			GUISetState(@SW_HIDE, $hGUI)
 			If $cmd4 <> 'null' Then
 				;MsgBox(0, "", $cmd4)
